@@ -6,11 +6,12 @@ int fact(int n)
     else
         return n*fact(n-1);
 }
-int main
+int main()
 {
     int n;
-    printf("enter a number:")
+    printf("enter a number:");
     scanf("%d",&n);
     printf("factorial=%d\n",fact(n));
     return 1;
 }
+
