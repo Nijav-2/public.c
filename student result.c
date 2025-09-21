@@ -3,23 +3,23 @@
 int main()
 {
     int marks,result;
-    int subject1,mark1:;
-    int subject2,mark2:;
-    int subject3,mark3:;
-    int subject4,mark4:;
-    int subject5,mark5:;
-    int subject6,mark6:;
+    int subject1,mark1;
+    int subject2,mark2;
+    int subject3,mark3;
+    int subject4,mark4;
+    int subject5,mark5;
+    int subject6,mark6;
     subject1=printf("enter the mark1:");
     scanf("%d",&mark1);
     subject2=printf("enter the mark2:");
     scanf("%d",&mark2);
-    subject3=printf("enter the mark3");
+    subject3=printf("enter the mark3:");
     scanf("%d",&mark3);
-    subject4=printf("enter the mark4");
+    subject4=printf("enter the mark4:");
     scanf("%d",&mark4);
-    subject5=printf("enter the mark5");
+    subject5=printf("enter the mark5:");
     scanf("%d",&mark5);
-    subject6=printf("enter the mark6");
+    subject6=printf("enter the mark6:");
     scanf("%d",&mark6);
     marks=mark1+mark2+mark3+mark4+mark5+mark6;
     printf("The total mark is %d",marks);
@@ -54,4 +54,5 @@ int main()
 
     return 0;
 }
+
 
