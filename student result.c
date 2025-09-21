@@ -3,15 +3,15 @@
 int main()
 {
     int marks,result;
-    int subject1,mark1;
-    int subject2,mark2;
-    int subject3,mark3;
-    int subject4,mark4;
-    int subject5,mark5;
-    int subject6,mark6;
-    subject1=printf("enter the mark1");
+    int subject1,mark1:;
+    int subject2,mark2:;
+    int subject3,mark3:;
+    int subject4,mark4:;
+    int subject5,mark5:;
+    int subject6,mark6:;
+    subject1=printf("enter the mark1:");
     scanf("%d",&mark1);
-    subject2=printf("enter the mark2");
+    subject2=printf("enter the mark2:");
     scanf("%d",&mark2);
     subject3=printf("enter the mark3");
     scanf("%d",&mark3);
@@ -54,3 +54,4 @@ int main()
 
     return 0;
 }
+
