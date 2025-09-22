@@ -22,9 +22,9 @@ int main()
     subject6=printf("enter the mark6:");
     scanf("%d",&mark6);
     marks=mark1+mark2+mark3+mark4+mark5+mark6;
-    printf("The total mark is %d",marks);
+    printf("The total mark is %d\n",marks);
     result=marks/6;
-    printf("your percentage is %d",result);
+    printf("your percentage is %d\n",result);
 
 
         if(result>=91 || result==100){
@@ -54,5 +54,6 @@ int main()
 
     return 0;
 }
+
 
 
