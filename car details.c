@@ -19,10 +19,11 @@ int main(){
     printf("\n");
     for(i=0;i<2;i++)
     {
-        printf("car %d details:\n",i+1);
+        printf("car %d details:-\n",i+1);
         printf("fuel tank capacity:%d\n",c[i].fuel_tank_cap);
         printf("seating capacity:%d\n",c[i].seating_cap);
         printf("city mileage:%f\n",c[i].city_mileage);
     }
     return 0;
 }
+
