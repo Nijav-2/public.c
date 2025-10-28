@@ -26,7 +26,7 @@ int main()
     printf("\n");
     for(i=0;i<j;i++)
     {
-        printf("----Customer details-----  -> %d\n");
+        printf("----Customer details-----\n");
         printf("The name of the %d customer is %s\n",i+1,c[i].name);
         printf("The phone number of the %d customer is %llu\n",i+1,c[i].phone);
         printf("The adress of the %d customer is %s\n",i+1,c[i].address);
@@ -34,3 +34,4 @@ int main()
     }
     return 0;
 }
+
